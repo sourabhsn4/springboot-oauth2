@@ -1,0 +1,11 @@
+<htm xmlns:th="https://thymeleaf.org>
+	<head>		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+			<a class="btn btn-primary" th:href="@{/oauth2/authorize-client/google}">Login with Google</a>
+			<a class="btn btn-primary" th:href="@{/oauth2/authorize-client/facebook}">Login with Facebook</a>
+		</div>
+	</body>
+</html>
